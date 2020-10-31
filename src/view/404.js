@@ -5,7 +5,7 @@ export default () => {
   notFound.innerHTML = `
   <section>
     <figure class="nf-image">
-      <img src="/imagenes/giphy.gif" width="480" height="270"/>  
+      <img src="./imagenes/giphy.gif" width="480" height="270"/>  
       </figure>
     <h1 class="nf-number">404</h1>
     <h2 class="nf-text">Página no encontrada</h2>

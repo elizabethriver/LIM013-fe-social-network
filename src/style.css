@@ -5,7 +5,7 @@
 }
 body {
 	background-attachment: fixed;
-	background-image: url(../imagenes/mobileBG.png);
+	background-image: url(./imagenes/mobileBG.png);
 	background-color: orange;
 	height: 500px;
 	background-position: inherit;
@@ -746,7 +746,7 @@ li.optionMobile {
 
 .label-menu-post {
 	height: 2rem;
-	background-image: url(../imagenes/copywriting.png.);
+	background-image: url(./imagenes/copywriting.png.);
 	background-repeat: no-repeat;
 	background-size: contain;
 	border: none;
@@ -1083,7 +1083,7 @@ img.user_img {
 	width: 2em;
 	height: 2em;
 	background-color: rgba(0, 0, 0, 0);
-	background-image: url(../imagenes/delete.png);
+	background-image: url(./imagenes/delete.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	border: none;
@@ -1923,7 +1923,7 @@ section.msg-Redes p {
 	body {
 		font-family: 'Playfair Display', serif;
 		background-attachment: fixed;
-		background-image: url(../imagenes/desktopBG.png);
+		background-image: url(./imagenes/desktopBG.png);
 		background-color: #fff895;
 		height: 500px;
 		background-position: inherit;
@@ -2316,19 +2316,12 @@ section.msg-Redes p {
 	.all-posts-profile {
 		margin: 0rem 8rem;
 	}
-	.card-group {
-		position: absolute;
-		/* left: -31rem; */
-		right: 37rem;
-		width: 36%;
-		top: 33rem;
-	}
 }
 @media only screen and (min-width: 1281px) {
 	body {
 		font-family: 'Playfair Display', serif;
 		background-attachment: fixed;
-		background-image: url(../imagenes/desktopBG.png);
+		background-image: url(./imagenes/desktopBG.png);
 		background-color: #fff895;
 		height: 500px;
 		background-position: inherit;
@@ -2704,12 +2697,5 @@ section.msg-Redes p {
 	}
 	.all-posts-profile {
 		margin: 0rem 8rem;
-	}
-	.card-group {
-		position: absolute;
-		/* left: -31rem; */
-		right: 46rem;
-		width: 36%;
-		top: 35rem;
 	}
 }

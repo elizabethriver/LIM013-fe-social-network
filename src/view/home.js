@@ -10,21 +10,21 @@ export default (notes, dataUser) => {
     <header id='headerHome'>
       <nav class="nav_Mobile">   
       <label class='btn-menu'><i class="fas fa-bars" style="color:#04BFBF; font-size:30px;"></i></label>
-      <img src="/imagenes/nombre2.png" class="petLogoMenu" alt="logo" width="10%" height="auto" />
+      <img src="./imagenes/nombre2.png" class="petLogoMenu" alt="logo" width="10%" height="auto" />
       
       <ul class='menu_mobile'>
         <li class="optionMobile">
           <a class='btn-header' href='#/profile'>
-          <img src="/imagenes/032-wanted.png" class="img-nav" alt="logo" width="8%" height="auto" />Mi Perfil</a>
+          <img src="./imagenes/032-wanted.png" class="img-nav" alt="logo" width="8%" height="auto" />Mi Perfil</a>
         </li>
         <li class="optionMobile">
           <a class='btn-header'href='#/home'>
-          <img src="/imagenes/042-Doghouse.png" class="img-nav" alt="logo" width="8%" height="auto" />Home 
+          <img src="./imagenes/042-Doghouse.png" class="img-nav" alt="logo" width="8%" height="auto" />Home 
           </a>
         </li>
         <li class="optionMobile">
           <a class='btn-header' id="logout" href='#/signIn'>
-          <img src="/imagenes/logout.png" class="img-nav" alt="logo" width="8%" height="auto" />Cerrar Sesión</a>
+          <img src="./imagenes/logout.png" class="img-nav" alt="logo" width="8%" height="auto" />Cerrar Sesión</a>
         </li>
       </ul>
       </nav>
@@ -74,7 +74,7 @@ export default (notes, dataUser) => {
             <div class="menu-post-options">
             <label for="selectImage" class="selectImage"> 
               <input type="file" id="selectImage"  name="imagensubida" class="upload" accept="image/png, .jpeg, .jpg, image/gif">
-              <img class="cam-post" src="/imagenes/camera.png" width="5%" height="auto" alt="">       
+              <img class="cam-post" src="./imagenes/camera.png" width="5%" height="auto" alt="">       
             </label>        
             <select id="privacy" class="privacy" style='color:#04BFBF; font-family:Arial, FontAwesome;'>
               <option value="0" style='color:#04BFBF;'>&#xf57d;</option>
@@ -82,7 +82,7 @@ export default (notes, dataUser) => {
             </select>
             <i></i>
             <button type="button" id="bttonnewpost" class="post_buttom">
-            <img class="pencil-btton-post" src="/imagenes/pencil.png" width="10%" height="auto" alt="">       
+            <img class="pencil-btton-post" src="./imagenes/pencil.png" width="10%" height="auto" alt="">       
             Post</button>
             </div>
           </article>
@@ -90,7 +90,7 @@ export default (notes, dataUser) => {
           <article class="card-group">
             <section class="content-home">
               <div class="grupo-nombre">              
-                <img class="comunidades-figures" src="/imagenes/team.png" alt="">            
+                <img class="comunidades-figures" src="./imagenes/team.png" alt="">            
                 <h1>Grupos públicos</h1>
               </div>             
                 <div class="label-comunidades-in">
@@ -99,7 +99,7 @@ export default (notes, dataUser) => {
                   <a href="https://www.facebook.com/mascotaclubperu" target="_blank" class="a-enlace"><img src="/imagenes/mascota.png" class="img-mascota" alt="logo" width="8%" height="auto" /></a>
                   <div class="label-msg">
                   <h2 class="name_pet1">¡A<strong> ${dataUser.petName} </strong>le va a gustar!</h2>                 
-                  <img class="comunidades-gif" src="/imagenes/puppy-avengers.gif" width="20%" height="auto" alt="">
+                  <img class="comunidades-gif" src="./imagenes/puppy-avengers.gif" width="20%" height="auto" alt="">
                   </div>              
                 </div>
             </section>
