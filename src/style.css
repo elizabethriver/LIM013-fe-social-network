@@ -1389,7 +1389,6 @@ section.msg-Redes p {
 	}
 	.container-new-comment {
 		display: none;
-		background-color: darkmagenta;
 	}
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -2696,6 +2695,6 @@ section.msg-Redes p {
 		display: none;
 	}
 	.all-posts-profile {
-		margin: 0rem 8rem;
+		margin: 0rem 20rem;
 	}
 }
