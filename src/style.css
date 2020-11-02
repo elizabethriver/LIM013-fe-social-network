@@ -2675,7 +2675,7 @@ section.msg-Redes p {
 	}
 	.body_container {
 		width: 100%;
-		max-width: 100%
+		max-width: 100%;
 		margin: 20px auto;
 	}
 	.card-home {
@@ -2699,7 +2699,7 @@ section.msg-Redes p {
 		margin: 20px auto;
 		display: grid;
 		height: 100%;
-		grid-template-columns: 40% 54%;
+	    grid-template-columns: 50% auto;
 		column-gap: 3%;
 		padding-top: 3em;
 	}
@@ -2731,7 +2731,7 @@ section.msg-Redes p {
 		height: auto;
 		/* position: relative; */
 		margin-left: 63rem;
-		padding: 2%;
+		padding: 1%;	
 	}
 	.name {
 		font-size: 200%;
@@ -2829,7 +2829,7 @@ section.msg-Redes p {
 		margin-left: 0.5rem;
 	}
 	.post_buttom {
-		margin: 0rem 0rem 0rem 33rem;
+		margin: 0rem 0rem 0rem 28rem;
 		font-size: 150%;
 		width: 6rem;
 		max-width: 6rem;
@@ -2885,11 +2885,15 @@ section.msg-Redes p {
 		height: 2.5rem;
 	}
 	.all-posts-profile {
-		margin: 0rem 16rem;
+		margin: 0rem 21rem;
 	}
 	.comment-edition {
 		display: flex;
 		flex-direction: column;
-		margin-left: 31rem;
+		margin-left: 23rem;
+	}
+	.nav-comment {
+		position: absolute;
+		margin-top: 2%;
 	}
 }
