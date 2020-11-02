@@ -1,6 +1,9 @@
 import { cambioVista } from './controller/router.js';
 import { getAndCreateData } from './controller/signin-controller.js';
+<<<<<<< HEAD
 
+=======
+>>>>>>> 84df18f598c0d41081659f8b9261fac326b49218
 const firebaseConfig = {
   apiKey: 'AIzaSyBzHWIsaXuMT1H8-1DrI-WSGyDZqMTgH28',
   authDomain: 'petlandia-624cd.firebaseapp.com',
