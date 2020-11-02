@@ -1,3 +1,4 @@
+
 # BIENVENID@S A PETLANDIA :cat: :orange_heart: :dog: 
 ## Team : Verónica Flores ft Elizabeth Rivera 
 ___
@@ -19,7 +20,7 @@ Petlandia es una red social de entretenimiento para los amantes de las mascotas,
 ## 2. Desarrollo del Producto 
 El producto presenta 4 vistas: una vista como ingreso de usuario registrado y otro para registrarse. Dentro de la app, como usuario registrado y en sesión, se presenta dos vistas, una llamada "home", en que se registra los posts del usuario, visualiza grupos de apoyo sobre mascotas, y su perfil. La ultima vista es "profile", donde el usuario logeado visualiza los posts únicos de él, y además puede modificar sus datos de perfil. 
 
-![zoom_0_Slomo_Slomo](https://user-images.githubusercontent.com/63525613/97816418-023fae80-1c63-11eb-80fd-d07a873ab38a.gif)
+![zoom-0-Slomo](https://user-images.githubusercontent.com/63525613/97816683-cf96b580-1c64-11eb-84ae-301af283fa34.gif)
 
 ## 3. Los principales usuarios de producto
 
@@ -46,7 +47,9 @@ En base a este perfil de usuario, se aplicaron entrevistas con las siguientes pr
 compartir las fotos de sus mascotas y además hacer meetups con otros amantes de las mascotas. 
 * Como usuarios pasivos , les gustaría poder ver las fotos de las mascotas de otros usuario y quizás comentarlas.
 
+
 ## 4. El problema que resuelve el producto y para qué servirá
+
 
 A partir de los resultados de la entrevistas se identifica que Petlandia proporcionara un medio de comunicación para que diversos usuarios con mascotas puedan socializar, compartir información sobre sus mascotas y el cuidado a los mismos. Este producto garantiza una comunicación con seguridad para el usuario, quien puede compartir su información de manera segura con la comunidad de amantes de pets.
 
@@ -57,6 +60,7 @@ Como producto de las entrevistas , desarrollamos los prototipos de baja y alta f
 ### 5.1 Vista prototipo de baja fidelidad
 
 ![prototipobaja](https://user-images.githubusercontent.com/63525613/97815080-97d64080-1c59-11eb-8d30-04ee8431f4a3.jpg)
+
 
 ### 5.2 Vista prototipo de alta fidelidad
 
@@ -171,4 +175,3 @@ y que sea [_responsive_](https://github.com/Laboratoria/curricula-js/tree/master
 * [x] Crear prototipos para obtener feedback e iterar.
 * [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 * [x] Planear y ejecutar tests de usabilidad.
-
