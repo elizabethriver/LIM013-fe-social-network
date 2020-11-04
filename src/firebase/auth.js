@@ -3,7 +3,6 @@
 export const signUp = (emailSignUp, passwordSignUp) => firebase.auth().createUserWithEmailAndPassword(emailSignUp, passwordSignUp);
 // TODO user current data
 export const currentUser = () => firebase.auth().currentUser;
-// TODO email verification
 // TODO sigIn with mail and password
 // eslint-disable-next-line max-len
 export const signIn = (emailSignIn, passwordSignIn) => firebase.auth().signInWithEmailAndPassword(emailSignIn, passwordSignIn);
