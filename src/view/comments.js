@@ -1,4 +1,4 @@
-import { currentUser } from '../firebase/auth.js';
+import { currentUser } from '../firebase/currentUser';
 import { updateComment, deleteComment } from '../firebase/firestore.js';
 
 export const eachComment = (dataComment) => {

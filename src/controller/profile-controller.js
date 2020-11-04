@@ -1,5 +1,7 @@
 import { getUser, updateProfileInfo } from '../firebase/firestore.js';
-import { currentUser, updateUserData } from '../firebase/auth.js';
+import { currentUser, updateUserData } from '../firebase/currentUser.js';
+
+
 // TODO infoProfile users
 export const infoProfile = (divElemt) => {
   // const nameUserProfile = divElemt.querySelector('.name');
