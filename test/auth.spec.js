@@ -41,13 +41,6 @@ describe('Sign Up', () => {
     }));
 });
 
-// describe('currentUser', () => {
-//   it('Must identify current user', () => currentUser()
-//     .then((user) => {
-//       expect(user).toBe('undefined');
-//     }));
-// });
-
 describe('loginUser with Google', () => {
   it('debería ser una función', () => {
     expect(typeof googleSignIn).toBe('function');
@@ -66,11 +59,3 @@ describe('logOut', () => {
       expect(user).toBe(undefined);
     }));
 });
-// describe('verificationEmail', () => {
-//   it('Debería enviar un mail de verificación', () => {
-//     const myMock = jest.fn();
-//     firebase.auth().currentUser.sendEmailVerification = myMock;
-//     verifEmail();
-//     expect(myMock.mock.calls).toHaveLength(1);
-//   });
-// });

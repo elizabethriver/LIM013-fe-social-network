@@ -61,8 +61,3 @@ export const getComments = (callback, id) => firebase.firestore().collection('co
 export const updateComment = (id, changedComment) => firebase.firestore().collection('comments').doc(id).update({ comment: changedComment });
 
 export const deleteComment = id => firebase.firestore().collection('comments').doc(id).delete();
-
-// TODO upDate likes
-export const updateLike = (id, likes) => firebase.firestore().collection('publicaciones').doc(id).update({ likes });
-// TODO upDate privacy
-export const updatePrivacy = (id, status) => firebase.firestore().collection('publicaciones').doc(id).update({ privacy: status });

@@ -3,11 +3,13 @@ import {
   updatePost,
   createComments,
   getComments,
+} from '../firebase/firestore.js';
+import { currentUser } from '../firebase/current-user.js';
+import { eachComment } from './comments.js';
+import {
   updateLike,
   updatePrivacy,
-} from '../firebase/firestore.js';
-import { currentUser } from '../firebase/auth.js';
-import { eachComment } from './comments.js';
+} from '../firebase/updates.js';
 
 export const postSection = (Object) => {
   // console.log(Object.likes.length);
