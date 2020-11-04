@@ -1,5 +1,5 @@
 import { getUser, updateProfileInfo } from '../firebase/firestore.js';
-import { currentUser, updateUserData } from '../firebase/currentUser.js';
+import { currentUser, updateUserData } from '../firebase/current-user.js';
 
 
 // TODO infoProfile users

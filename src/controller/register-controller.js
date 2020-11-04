@@ -2,7 +2,7 @@ import {
   signUp, logOut,
 } from '../firebase/auth.js';
 import { createUser } from '../firebase/firestore.js';
-import { currentUser, updateUserData } from '../firebase/currentUser.js';
+import { currentUser, updateUserData } from '../firebase/current-user.js';
 
 // TODO showMessage
 const showMessage = (txtmessage) => {

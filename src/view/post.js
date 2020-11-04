@@ -4,7 +4,7 @@ import {
   createComments,
   getComments,
 } from '../firebase/firestore.js';
-import { currentUser } from '../firebase/currentUser.js';
+import { currentUser } from '../firebase/current-user.js';
 import { eachComment } from './comments.js';
 import {
   updateLike,
